@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #c2bebe;
+}
+
+/* Layout*/
+
+.container {
+    width: 100%;
+    margin-top: 3%;
+}
+
+.perfil {
+    width: 30%;
+    height: 100%;
+    float: left;
+    margin-left: 4%;
+    text-align: center;
+    position: fixed;
+}
+
+.informacion {
+   width: 60%;
+   float: right;
+   margin-right: 4%;
+   position: relative;
+}
+
+/* Generales*/
+
+ul {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img:hover  {
+    opacity: 0.5;
+}
+
+.titulo {
+    font-size: 30px;
+    color: #3c4f65;
+    border-bottom: 2px solid #3c4f65;
+}
+
+/* Perfil*/
+
+.avatar {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.lista-botones li {
+    padding: 1%;
+}
+
+.boton {
+    width: 80%;
+    background-color: #E9967A;
+    border: none;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.boton a {
+    color: rgb(22, 20, 29);
+    font-weight: bold; 
+}
+
+.social-media {
+    margin-top: 23%;
+}
+
+.social-media .site {
+    display: inline;
+    padding: 5%;
+}
+
+.social-media .site img {
+     width: 30px;
+ }
+
+button:hover { 
+    background-color: rgb(245, 101, 76);
+  }
+
+/* Informacion*/
+
+.frontend {
+    color: #3c4f65;
+    font-weight: bolder;
+    margin-bottom: 4%;
+}
+
+ h2 {
+     font-size: 40px;
+     color: #834c69;
+ }
+
+ .seccion  h3 {
+    color:#3c4f65;
+ }
+
+.seccion {
+    background-color: white;
+    padding: 4%;
+    margin-bottom: 3%;
+}
+
+.datos li {
+    border-bottom: 2px solid pink;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/*Portfolio*/
+
+.trabajos li {
+    display: inline;
+}
+
+ .trabajos li img {
+    width: 24%;
+ }
